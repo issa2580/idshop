@@ -1,0 +1,8 @@
+.notfound{
+    font-size: 50px;
+    margin: 10%;
+    color: red;
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 0 0 10px #aaa;
+}

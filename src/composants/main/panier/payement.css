@@ -1,0 +1,42 @@
+.payement{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    color: black;
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 0 0 10px #aaa;
+}
+
+.payement form{
+    max-width: 400px;
+    min-width: 300px;
+    width: 100%;
+    margin: 15px 30px;
+}
+
+.payement form .row{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.payement form input{
+    width: 100%;
+    min-height: 40px;
+    padding: 0 5px;
+    outline: white;
+    border: 1px solid teal;
+}
+
+.payement form button{
+    width: 100px;
+    height: 40px;
+    background: #ff0044;;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+

@@ -1,0 +1,8 @@
+.tst1{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 0 0 10px #aaa;
+}

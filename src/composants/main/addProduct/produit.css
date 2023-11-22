@@ -1,0 +1,97 @@
+.addProduit{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0;
+    background-color: white;
+    box-shadow: 0 0 10px #aaa;
+}
+
+.upload{
+    max-width: 450px;
+    height: 500px;
+    width: 100%;
+    border: 2px solid white;
+    padding: 15px;
+    margin: 20px;
+    position: relative;
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 0 0 10px #aaa;
+}
+
+#file_up{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    outline: none;
+}
+
+#file_up::before{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: auto;
+}
+
+#file_img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+}
+
+#file_img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+#file_img span{
+    position: absolute;
+    top: -13px;
+    right: -13px;
+    background: white;
+    border: 1ps solid #ddd;
+    border-radius: 50%;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: 900;
+    color: crimson;
+}
+
+.addProduit form{
+    max-width: 400px;
+    min-width: 300px;
+    width: 100%;
+    margin: 15px 30px;
+}
+
+.addProduit form .row{
+    width: 100%;
+    margin: 15px 0;
+}
+
+.addProduit form input, textarea{
+    width: 100%;
+    min-height: 40px;
+    padding: 0 5px;
+}
+
+.addProduit form button{
+    width: 100px;
+    height: 40px;
+    background: black;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+

@@ -1,8 +1,30 @@
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import React from "react";
+import { unmountComponentAtNode } from "react-dom";
+import { render } from '@testing-library/react';
+import ReactDOM from 'react-dom';
+import App from '../src/App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+let app = null;
+beforeEach(() => {
+ 
+  app = document.createElement("div");
+  document.body.appendChild(app);
 });
+
+afterEach(() => {
+  
+  unmountComponentAtNode(app);
+  app.remove();
+  app = null;
+});
+
+it('rendu du server dapplication', () => {
+  const div = document.createElement('div');
+  ReactDOM.render(<App />, div);
+  ReactDOM.unmountComponentAtNode(div);
+});
+
+test('Teste rendu de la page dacceuil', () => {
+  render(<App />);
+});
+   

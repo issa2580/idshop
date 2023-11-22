@@ -1,0 +1,60 @@
+.categorie{
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 30px auto;
+}
+
+.categorie form{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.categorie label{
+    display: block;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.categorie input, button{
+    height: 35px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ff0044;
+    
+}
+
+.categorie input{
+    width: 310px;
+}
+
+.categorie button{
+    width: 100px;
+    background: black;;
+    color: white;   
+}
+
+#sup{
+    background-color: white; 
+}
+
+#modif{
+    background-color: white; 
+}
+
+.categorie .row{
+    min-width: 390px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 0 0 10px #aaa;
+}
+

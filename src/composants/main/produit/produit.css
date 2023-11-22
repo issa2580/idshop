@@ -1,0 +1,45 @@
+.produit{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    justify-items: center;
+    margin: 40px 0;
+    background-color: white;
+    box-shadow: 0 0 10px #aaa;
+}
+
+
+
+
+@import url("../utile/page/prod.css");
+
+
+.rech_menu{
+    width: 100%;
+    min-height: 40px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 0 0 10px #aaa;
+}
+
+.rech_menu select, input{
+    border: 2px solid #eee;
+    outline: none;
+    height: 35px;
+    padding: 0 50px;
+}
+
+.rech_menu input{
+    flex: 2;
+    margin: 0 50px;
+}
+
+.tst{
+    width: 100%;
+    height: 50px;
+
+}

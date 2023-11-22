@@ -1,0 +1,33 @@
+.historique{
+    overflow-x: auto;
+    margin: 10px 0 30px;
+    background-color: white;
+    box-shadow: 0 0 10px #aaa;
+
+}
+
+.historique h2, h4{
+    text-align: center;
+    margin: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.historique table{
+    margin: auto;
+    width: 100%;
+}
+
+.historique table, th, tr, td{
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+
+    margin: 10px 0;
+    background-color: white;
+    box-shadow: 0 0 10px #aaa;
+}
+
+table a{
+    color: teal;
+}
